@@ -56,9 +56,9 @@ Each data sample will be represented in a JSON format, where you link the MRI im
     "mri_label": 1,
     "pet_label": 1, 
     "conversations": [{"from": "USER", 
-                      "value": "<image>\n<image>\nThe age of the patient is 86.4, the gender is Female. The Mini-Mental State Examination score is 20 out of 30, and the Clinical Dimentia Rate score is 2.0. What the Alzheimer's Disease diagnosis result is? Select from the following: Cognitive Normal (CN), Mild Cognitive Impairment (MCI), Alzheimer's Disease (AD)."}, 
+                      "value": "<image>\n<image>\nThe age of the patient is 86.4, the gender is Female. The Mini-Mental State Examination score is 20 out of 30, and the Clinical Dementia Rate score is 2.0. What the Alzheimer's Disease diagnosis result is? Select from the following: Cognitive Normal (CN), Mild Cognitive Impairment (MCI), Alzheimer's Disease (AD)."}, 
                       {"from": "ASSISTANT", 
-                      "value": "Given the demographic informatin, neuropsychological assessment scores, and the image information, the diagnosis is Alzheimer's Disease."}]}
+                      "value": "Given the demographic information, neuropsychological assessment scores, and the image information, the diagnosis is Alzheimer's Disease."}]
 }
 ```
 
